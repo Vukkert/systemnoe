@@ -1,0 +1,9 @@
+double a, b, x, y;
+            Console.WriteLine("введите значения переменных a и b");
+            a = double.Parse(Console.ReadLine());
+            b = double.Parse(Console.ReadLine());
+            x = (2 + a * b) / (a * a - b * b);
+            y = (a / 3) + (7 * b * b * b);
+            Console.WriteLine("x=" + x);
+            Console.WriteLine("y=" + y);
+            Console.ReadKey();
