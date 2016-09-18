@@ -1,0 +1,13 @@
+ int a, b, c, d;
+            float m, n;
+            Console.WriteLine("¬ведите значени€ переменных a, b, c и d");
+            a = int.Parse(Console.ReadLine());
+            b = int.Parse(Console.ReadLine());
+            c = int.Parse(Console.ReadLine());
+            d = int.Parse(Console.ReadLine());
+            m = a * d;
+            n = b * c;
+            Console.WriteLine("m=" + m);
+            Console.WriteLine("n=" + n);
+            Console.WriteLine("m/n=" + m/n);
+            Console.ReadKey();
