@@ -1,0 +1,7 @@
+double R, S, L;
+            Console.WriteLine("Введите радиус окружности R:");
+            R = double.Parse(Console.ReadLine());
+            L = Math.PI * R;
+            S = Math.PI * (R * R);
+            Console.WriteLine("L=" + L); Console.WriteLine("S=" + S);
+            Console.ReadKey();

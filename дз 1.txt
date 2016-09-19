@@ -1,0 +1,11 @@
+double a, b, c, P, S;
+            Console.WriteLine("¬ведите длину катетов a и b:");
+            a = double.Parse(Console.ReadLine());
+            b = double.Parse(Console.ReadLine());
+            c = Math.Sqrt((a * a) + (b * b));
+            P = a + b + c;
+            S = Math.Sqrt((P / 2) * ((P/2)-a) * ((P/2)-b) * ((P/2)-c));
+            Console.WriteLine("c=" + c);
+            Console.WriteLine("P=" + P);
+            Console.WriteLine("S=" + S);
+            Console.ReadKey();
